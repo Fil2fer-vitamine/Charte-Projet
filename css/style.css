@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(236, 236, 230);
+}
+
+header{
+    /*border: 1px solid;*/
+    padding: 4em;
+    /* background-color:rgb(250, 250, 250);
+    box-shadow: 10px 2px 2px rgba(0, 0, 0, 0.162); */
+    text-align: center;
+    position: fixed;
+    z-index:1;
+}
+
+#premierTitre{
+    margin-top: 7em;
+}
+
+h1, h4{
+    font-weight: bold;
+}
+
+.cliquez{
+    font-size: 15px;
+}
+
+ul li{
+    list-style-image : url(/images/bullet.png);
+}
+
+span{
+    font-size: 15px;
+}
+
+blockquote{
+    font-size: 0.7em;
+}
+
+button{
+    position: relative;
+    top: 0%;
+    left: 80%;
+    /* width: 20%;       Mise en commentaire de cette ligne pour fixer le bug du texte 'ACCES CHARTE' dépassant du cadre pour les petites résolutions d'écran */
+    height: auto;
+    background-color: red;
+    color: white;
+    
+}
+
+.row{
+    background-color: white;
+    border-style: none;
+    border-radius: 10px;      /*les coins sont arrondis*/
+    width: 100%;                /*Largeur de la zone de texte*/
+    margin: 1%; 
+    margin-left: 0%;                /*hauteur du cadre entourant la zone de texte*/
+    padding: 5%;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 13, 0.037); 
+}
+
+img{
+    position: fixed;
+    top: 10%;
+    left: 80%;
+    width: 20%;
+    height: auto;
+    transform: rotate(-15deg);
+    opacity: 0.5;
+}
+
+#buttonR{
+    text-align: center;
+}
+
+.centrage{
+    height: auto;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    /*z-index: 999;*/
+    width: 100%;
+    background-color:white;
+    box-shadow: 2px 2px 2px 2px  rgba(0, 0, 13, 0.037); 
+}
+
+/*@media screen and (min-width: 800px) {                        je ne sais pas encore cacher l'image derrière la div 'charte de la promo' ...
+    .img {
+      position: relative;
+      width: 25%;
+    }
+  }                                                           Mise du bloc @media querry en commentaire pour la neutraliser/*
+
+
+/* phil ici -début-
+
+
+phil fin -fin-/*
